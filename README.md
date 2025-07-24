@@ -18,7 +18,29 @@ Para executar o script, você precisará ter o Python 3 instalado, juntamente co
 -   **NumPy:** Para cálculos numéricos eficientes.
 -   **Matplotlib:** Para a visualização dos dados e da reta de regressão.
 
-Você pode instalar estas bibliotecas usando o `pip`:
+
+
+## Instalação e Uso
+
+1. **Clone o repositório**: abra seu terminal e use o comando git clone.
 
 ```bash
+git clone https://github.com/ThiagoRozendo/analise-de-regressao-linear.git
+```
+
+2. **Navegue até o diretório do projeto**
+```bash
+cd analise-de-regressao-linear
+```
+
+3. **Instale as dependências necessárias**: instale as bibliotecas listadas nos requisitos.
+
+Você pode instalar estas bibliotecas usando o `pip`:
+```bash
 pip install numpy matplotlib
+```
+
+4. **Execute o script**: após a instalação, execute o arquivo Python.
+```bash
+python regressao_linear.py
+```
